@@ -60,7 +60,7 @@ class MainViewModel : ViewModel() {
         })
     }
 
-    fun getWeather(): LiveData<ArrayList<WeatherItems>>{
+    fun getWeathers(): LiveData<ArrayList<WeatherItems>>{
         return listWeathers
     }
 }
